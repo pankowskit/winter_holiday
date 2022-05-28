@@ -12,10 +12,10 @@ class MenuS2 extends Component{
                     <Col xs={12} md={{span:6,offset:6}} lg={{span:5,offset:7}} 
                         className="minh-50vh d-flex align-items-center">
                         <div className="w-100 text-center text-md-start">
-                            <h2 className="dispaly-6 fw-bold text-secondary">
+                            <h2 className="dispaly-6 fw-bold text-white text-shadow">
                                 Lorem ipsum
                             </h2>
-                            <p className="text-muted">
+                            <p className="text-dark">
                                 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium 
                                 doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore 
                                 veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim 
@@ -23,7 +23,7 @@ class MenuS2 extends Component{
                             </p>
                             <Table hover striped>
                                 <thead>
-                                    <tr className="text-secondary">
+                                    <tr className="text-dark">
                                         <th className="w-25">Name</th>
                                         <th className="w-50">Description</th>
                                         <th className="w-25">Price</th>
